@@ -18,7 +18,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   repositoryUrl: 'https://github.com/thpham/awscdk-asset-helmfile.git',
   homepage: 'https://github.com/thpham/awscdk-asset-helmfile#readme',
   autoApproveOptions: {
-    allowedUsernames: ['mergify[bot]'],
+    allowedUsernames: ['thpham'],
     secret: 'GITHUB_TOKEN',
   },
   autoApproveUpgrades: true,
